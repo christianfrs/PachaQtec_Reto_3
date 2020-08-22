@@ -6,8 +6,8 @@ try:
     notas=[]   
     for a in range(numero):
         while True:
-            print(f'Ingrese la nota {a+1}')
-            nota = int(input('Ingresa: ')) #int(input("..."))
+            print(f'Ingresa la nota {a+1}')
+            nota = int(input('Nota: ')) #int(input("..."))
             if nota >= 0 and nota <=20:
                 print (f'Nota {a+1} correctamente ingresada')
                 notas.append(nota)
